@@ -1,0 +1,17 @@
+### POST | Login Request
+POST http://localhost:3000/auth/login
+Accept: application/json
+# This returns our jwt token
+
+
+### GET | Try to access to private route without token
+GET http://localhost:3000/items
+Accept: application/json
+# This returns a 401 Unauthorized response
+
+### GET | Fetch all items
+GET http://localhost:3000/items
+Accept: application/json
+Authorization: Bearer XXX
+# If the token is valid, it returns a 200 response with the items
+# If not, it returns a 401 Unauthorized response
