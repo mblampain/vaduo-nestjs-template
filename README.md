@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://vaduoconsulting.com">
-        <img src="https://www.vaduoconsulting.com/wp-content/uploads/2019/02/vaduo-logo-only.svg" />
+        <img src="https://vaduoconsulting.com/images/logo_vaduo_large.svg" />
     </a>
 </p>
 
